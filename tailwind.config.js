@@ -28,6 +28,9 @@ export default {
         },
         
     },
+    backgroundImage: {
+      'hero-pattern': "url(/src/assets/video.png)",
+    }
   },
   plugins: [],
 }

@@ -1,12 +1,13 @@
 import React from 'react'
 import { FaPlay } from "react-icons/fa";
 import videoPlay from '../../assets/video.mp4'
+import videoImg from '../../assets/video.png'
 const Video = () => {
   return (
     <>
         <section className='py-16'>
             <div className="max-w-container mx-auto">
-                <div style={{background : "url(/src/assets/video.png)", backgroundRepeat : "no-repeat", backgroundPosition :"cover", backgroundSize:"center"}} className="py-28 w-[90%] mx-auto text-center rounded-xl">
+                <div style={{background : "", backgroundRepeat : "no-repeat", backgroundPosition :"cover", backgroundSize:"center"}} className="py-28 w-[90%] bg-hero-pattern mx-auto text-center rounded-xl">
                     <div className="mx-auto bg-red-500 leading-[3rem] w-12 h-12 text-center items-center rounded-full my-2">
                         <a href={videoPlay} className="text-white text-xl inline-block"><FaPlay className="inline-block"/></a>
                     </div>
